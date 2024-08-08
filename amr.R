@@ -38,4 +38,30 @@ Africa <- Atlas [Atlas$Country %in% c("Uganda",
                                       "South Africa", 
                                       "Tunisia"),] 
 
+#=====================================================================
+#WHO's GLASS Antibiotics /Variables 
+Who_Antibiotics <- subset(Africa, select = c("Isolate.Id",
+                                             "Study",
+                                             "Species",
+                                             "Family",
+                                             "Country", 
+                                             "State",
+                                             "Gender", 
+                                             "Age.Group",
+                                             "Speciality",
+                                             "Source", 
+                                             "In...Out.Patient",
+                                             "Year",
+                                             "Phenotype",
+                                             "Ceftriaxone",
+                                             "Ceftriaxone_I",
+                                             "Metronidazole",
+                                             "Metronidazole_I",
+                                             "Ciprofloxacin",
+                                             "Ciprofloxacin_I",
+                                             "Amoxycillin.clavulanate",
+                                             "Amoxycillin.clavulanate_I"
+                                             ))
+#===============================================================================
+
  
